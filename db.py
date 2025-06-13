@@ -1,7 +1,7 @@
 import certifi
 from pymongo import MongoClient
 
-MONGODB_URI = "mongodb+srv://mindsetfuel5274:V4K5txDYRW1yC5VJ@kasi.y4czfjc.mongodb.net/?retryWrites=true&w=majority&appName=kasi"
+MONGODB_URI = " "  # Use your MANGODB URL
 client = MongoClient(MONGODB_URI, tls=True, tlsCAFile=certifi.where())
 db = client["sample_analytics"]
 
